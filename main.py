@@ -28,10 +28,10 @@ auth_headers = {
 
 exercise_params = {
     "query": INPUT,
-     "gender":"male",
-     "weight_kg":80.05,
-     "height_cm":185.00,
-     "age":21
+     "gender":"(your_gender)",
+     "weight_kg":"int(your_weight)",
+     "height_cm":"int(your_height)",
+     "age":"int(your_age)"
 }
 
 date = datetime.now()
